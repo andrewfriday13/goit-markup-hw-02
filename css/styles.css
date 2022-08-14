@@ -1,0 +1,8 @@
+body {
+  color: #212121;
+}
+
+.header .list .link:hover,
+.header .list .link:focus {
+  color: #2196f3;
+}
