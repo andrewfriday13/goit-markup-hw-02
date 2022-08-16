@@ -1,8 +1,152 @@
 body {
-  color: #212121;
+  font-family: "Roboto", sans-serif;
+  background: #f5f5f5;
 }
-
-.header .list .link:hover,
-.header .list .link:focus {
+footer {
+  background-color: #2f303a;
+}
+span {
   color: #2196f3;
 }
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: #212121;
+}
+p {
+  color: #757575;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+h2 {
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+h3 {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+header a:hover,
+header a:focus {
+  color: #2196f3;
+}
+footer a:hover,
+footer a:focus {
+  color: #2196f3;
+}
+.main-list a {
+  color: #212121;
+  font-style: normal;
+  width: 72px;
+  font-weight: 500;
+  font-size: 14px;
+}
+.list-address a {
+  color: #757575;
+}
+[href="/"] {
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+}
+.section1 {
+  color: #ffffff;
+  background-color: #2f303a;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+}
+.section1 button {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  width: 216px;
+  height: 50px;
+  left: 692px;
+  top: 430px;
+  background-color: #2196f3;
+  border-radius: 4px;
+  border: 0;
+}
+.section2 {
+  background-color: #f5f5f5;
+}
+.section3 {
+  background-color: ##f5f5f5;
+}
+.section4 {
+  background-color: #f5f4fa;
+}
+/*body {
+  color: #212121;
+  font-family: "Roboto", sans-serif;
+  background: #f5f5f5;
+}
+.section4 .list-item:hover,
+:focus {
+  color: #ffffff;
+}
+
+header a:hover,
+header a:focus {
+  color: #2196f3;
+}
+
+footer a:hover,
+footer a:focus {
+  color: #2196f3;
+}
+footer {
+  background-color: #2f303a;
+}
+.buttom {
+  color: #ffffff;
+  font-weight: 700;
+  background-color: #2196f3;
+  height: 50px;
+  width: 216px;
+  left: 692px;
+  top: 430px;
+  border-radius: 4px;
+}
+
+.section1 {
+  background-color: #2f303a;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+
+/*
+header[class="list-item"] {
+  color: #f00020;
+  font-size: 14px;
+}
+header[href="/"] {
+  font-size: 24px;
+}
+*/
