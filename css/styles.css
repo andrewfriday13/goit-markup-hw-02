@@ -1,10 +1,17 @@
 body {
-  font-family: "Roboto", sans-serif;
-  background: #f5f5f5;
+  color: #212121;
+  font-family: "Roboto";
+  background-color: #ffffff;
+  position: relative;
+  width: 1600px;
+
+  /*width: 1600px;
+  height: 2346px;*/
 }
-footer {
-  background-color: #2f303a;
+header {
+  border: 1px solid #ececec;
 }
+
 span {
   color: #2196f3;
 }
@@ -13,41 +20,90 @@ ul {
 }
 a {
   text-decoration: none;
-  color: #212121;
 }
 p {
   color: #757575;
-  font-family: Roboto;
-  font-size: 14px;
+}
+footer {
+  background-color: #2f303a;
+  color: #ffffff;
+}
+footer [href="./index.html"] {
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+footer [href="mailto:info@devstudio.com"],
+[href="tel:+380961111111"] {
+  width: 231px;
+  height: 21px;
+  left: 215px;
+  font-style: normal;
   font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+
+  letter-spacing: 0.03em;
+  color: #ffffff99;
+}
+footer [href="https://goo.gl/maps/d5CcS2hFM6yTFQRFA"]
+{
+  width: 231px;
+  height: 21px;
+  left: 215px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  text-align: left;
+  color: #ffffff;
 }
-h2 {
-  font-family: Roboto;
+.section-products h2 {
+  width: 322px;
+  height: 36px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  text-align: left;
+  margin-left: 24px;
+  margin-top: 20px;
+  margin-bottom: 4px;
+}
+.section-skill h2 {
+  position: absolute;
+  width: 366px;
+  height: 42px;
+  left: 617px;
+  top: 966px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
   font-size: 36px;
-  font-weight: 700;
   line-height: 42px;
-  letter-spacing: 0.03em;
   text-align: center;
+  letter-spacing: 0.03em;
 }
-h3 {
-  font-family: Roboto;
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 16px;
+.section-products p {
+  width: 322px;
+  height: 30px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
   letter-spacing: 0.03em;
   text-align: left;
+  margin-left: 24px;
+  margin-bottom: 20px;
+  margin-top: 4px;
 }
-header a:hover,
-header a:focus {
+
+ul a:hover,
+ul a:focus {
   color: #2196f3;
 }
-footer a:hover,
-footer a:focus {
-  color: #2196f3;
-}
+
 .main-list a {
   color: #212121;
   font-style: normal;
@@ -58,7 +114,11 @@ footer a:focus {
 .list-address a {
   color: #757575;
 }
+footer .list-address {
+  margin-left: 215px;
+}
 [href="/"] {
+  color: #212121;
   width: 145px;
   height: 31px;
   left: 215px;
@@ -68,7 +128,7 @@ footer a:focus {
   font-size: 26px;
   line-height: 31px;
 }
-.section1 {
+.section-cap {
   color: #ffffff;
   background-color: #2f303a;
   font-weight: 900;
@@ -76,7 +136,7 @@ footer a:focus {
   line-height: 60px;
   text-align: center;
 }
-.section1 button {
+.section-cap .buttom {
   color: #ffffff;
   font-size: 16px;
   font-weight: 700;
@@ -88,65 +148,225 @@ footer a:focus {
   border-radius: 4px;
   border: 0;
 }
-.section2 {
-  background-color: #f5f5f5;
+.section-cap .buttom:active {
+  background-color: #188ce8;
 }
-.section3 {
-  background-color: ##f5f5f5;
+.section-skill li {
+  display: inline-block;
+  width: 270px;
+  height: 48px;
 }
-.section4 {
-  background-color: #f5f4fa;
-}
-/*body {
-  color: #212121;
-  font-family: "Roboto", sans-serif;
-  background: #f5f5f5;
-}
-.section4 .list-item:hover,
-:focus {
-  color: #ffffff;
-}
-
-header a:hover,
-header a:focus {
-  color: #2196f3;
-}
-
-footer a:hover,
-footer a:focus {
-  color: #2196f3;
-}
-footer {
-  background-color: #2f303a;
-}
-.buttom {
-  color: #ffffff;
+.section-skill h3 {
+  width: 270px;
+  height: 16px;
+  top: 774px;
   font-weight: 700;
-  background-color: #2196f3;
-  height: 50px;
-  width: 216px;
-  left: 692px;
-  top: 430px;
+  font-size: 14px;
+  line-height: 16px;
+}
+.section-skill p {
+  height: 72px;
+  top: 800px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+.section-work li {
+  display: inline-block;
+}
+h2 {
+  width: 366px;
+  height: 42px;
+  margin-left: 617px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.section-team h3 {
+  height: 19px;
+  top: 1922px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+.section-team p {
+  height: 19px;
+  top: 1951px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.section-buttoms [type="button"] {
+  height: 38px;
+  top: 174px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  border: 0;
+}
+.section-buttoms [type="button"]:active {
+  background-color: #188ce8;
+  color: #ffffff;
+  box-shadow: 0px 3px 1px #0000001a, 0px 1px 2px #00000014, 0px 2px 2px #0000001f;
   border-radius: 4px;
 }
+.list-products .list-item {
+  width: 370px;
+  height: 404px;
+}
+.list-all {
+  margin-bottom: 6px;
+}
+.list-web {
+  margin-bottom: 6px;
+}
+.list-app {
+  margin-bottom: 6px;
+}
+.list-design {
+  margin-bottom: 6px;
+}
+.list-marketing {
+  margin-bottom: 6px;
+}
 
-.section1 {
-  background-color: #2f303a;
-  color: #ffffff;
-  font-family: Roboto;
-  font-size: 44px;
-  font-weight: 900;
-  line-height: 60px;
-  letter-spacing: 0.06em;
+.section-products li:hover {
+  box-shadow: 0px 1px 1px #0000001f, 0px 4px 4px #0000000f, 1px 4px 6px #00000029;
+}
+.section-products li {
+  box-sizing: border-box;
+  width: 370px;
+  height: 404px;
+  margin-left: 24px;
+  display: inline-table;
+  border: 1px solid #eeeeee;
+}
+.section-team li {
+  background-color: #ffffff;
   text-align: center;
+  left: 215px;
+  width: 270px;
+  height: 368px;
+  box-shadow: 0px 1px 3px #0000001f, 0px 1px 1px #00000024, 0px 2px 1px #00000033;
+  margin-bottom: 10px;
+  display: inline-block;
 }
-
 /*
-header[class="list-item"] {
-  color: #f00020;
-  font-size: 14px;
+.list-technocrack {
+  box-sizing: border-box;
+  width: 370px;
+  height: 404px;
+  border: 1px solid #eeeeee;
 }
-header[href="/"] {
-  font-size: 24px;
+.list-poster {
+  box-sizing: border-box;
+  width: 370px;
+  height: 404px;
+  border: 1px solid #eeeeee;
+}
+.list-logo {
+  box-sizing: border-box;
+  width: 370px;
+  height: 404px;
+  border: 1px solid #eeeeee;
+}
+.list-prime {
+  box-sizing: border-box;
+  width: 370px;
+  height: 404px;
+  border: 1px solid #eeeeee;
+}
+.list-boxes {
+  box-sizing: border-box;
+  width: 370px;
+  height: 404px;
+
+  border: 1px solid #eeeeee;
+}
+.list-borders {
+  box-sizing: border-box;
+  width: 370px;
+  height: 404px;
+
+  border: 1px solid #eeeeee;
+}
+.list-lim {
+  box-sizing: border-box;
+  width: 370px;
+  height: 404px;
+
+  border: 1px solid #eeeeee;
+}
+.list-lab {
+  box-sizing: border-box;
+  width: 370px;
+  height: 404px;
+
+  border: 1px solid #eeeeee;
+}
+.list-growing {
+  box-sizing: border-box;
+  width: 370px;
+  height: 404px;
+
+  border: 1px solid #eeeeee;
 }
 */
+/*
+.list-igor {
+  background-color: #ffffff;
+  text-align: center;
+  height: 368px;
+  left: 215px;
+  top: 1632px;
+  width: 270px;
+  height: 368px;
+  left: 215px;
+  top: 1632px;
+  box-shadow: 0px 1px 3px #0000001f, 0px 1px 1px #00000024, 0px 2px 1px #00000033;
+  margin-bottom: 10px;
+}
+.list-olga {
+  background-color: #ffffff;
+  text-align: center;
+  height: 368px;
+  left: 215px;
+  top: 1632px;
+  width: 270px;
+  height: 368px;
+  left: 215px;
+  top: 1632px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+}
+.list-mikola {
+  background-color: #ffffff;
+  text-align: center;
+  height: 368px;
+  left: 215px;
+  top: 1632px;
+  width: 270px;
+  height: 368px;
+  left: 215px;
+  top: 1632px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+}
+.list-mikhailo {
+  background-color: #ffffff;
+  text-align: center;
+  height: 368px;
+  left: 215px;
+  top: 1632px;
+  width: 270px;
+  height: 368px;
+  left: 215px;
+  top: 1632px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+}*/
