@@ -1,16 +1,21 @@
-body {
-  color: #212121;
-  background-color: #ffffff;
-}
 :root {
-  --brand-color: #ffffff;
+  --text: #212121;
+  --background: #ffffff;
+  --color-p: #757575;
+  --color-but: #2196f3;
 }
+body {
+  color: var(--text);
+  background-color: var(--background);
+  font-family: "roboto";
+}
+
 header {
   border: 1px solid #ececec;
 }
 
 span {
-  color: #2196f3;
+  color: var(--color-but);
 }
 ul {
   list-style-type: none;
@@ -19,19 +24,18 @@ a {
   text-decoration: none;
 }
 p {
-  color: #757575;
+  color: var(--color-p);
 }
 footer {
   background-color: #2f303a;
-  color: #ffffff;
+  color: var(--background);
 }
 footer [href="./index.html"] {
-  color: #ffffff;
+  color: var(--background);
   font-size: 26px;
-  font-weight: 700;
   line-height: 1;
   letter-spacing: 0.03em;
-  text-align: left;
+  font-family: "raleway";
 }
 footer [href="mailto:info@devstudio.com"],
 [href="tel:+380961111111"] {
@@ -40,22 +44,19 @@ footer [href="mailto:info@devstudio.com"],
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
-
   letter-spacing: 0.03em;
   color: #ffffff99;
 }
 footer [href="https://goo.gl/maps/d5CcS2hFM6yTFQRFA"]
 {
-  left: 215px;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--background);
 }
 .section-products h2 {
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   text-align: left;
@@ -65,7 +66,6 @@ footer [href="https://goo.gl/maps/d5CcS2hFM6yTFQRFA"]
 }
 .section-skill h2 {
   left: 617px;
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
@@ -84,67 +84,61 @@ footer [href="https://goo.gl/maps/d5CcS2hFM6yTFQRFA"]
 
 ul a:hover,
 ul a:focus {
-  color: #2196f3;
+  color: var(--color-but);
 }
 
 .main-list a {
-  color: #212121;
+  color: var(--text);
   font-weight: 500;
   font-size: 14px;
+  letter-spacing: 0.02em;
 }
 .list-address a {
-  color: #757575;
+  color: var(--color-p);
 }
 footer .list-address {
   margin-left: 215px;
 }
 [href="/"] {
-  color: #212121;
-  left: 215px;
-  font-style: normal;
-  font-weight: 700;
+  color: var(--text);
   font-size: 26px;
   line-height: 1.2;
+  font-family: "raleway";
+  letter-spacing: 0.03em;
 }
-.section-cap {
-  color: #ffffff;
+.main-cap {
+  color: var(--background);
   background-color: #2f303a;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
   text-align: center;
+  letter-spacing: 0.06em;
 }
-.section-cap .buttom {
-  color: #ffffff;
+.buttom-cap {
+  color: var(--background);
   font-size: 16px;
-  font-weight: 700;
   width: 216px;
   height: 50px;
-  left: 692px;
-  top: 430px;
-  background-color: #2196f3;
+  background-color: var(--color-but);
   border-radius: 4px;
   border: 0;
+  letter-spacing: 0.06em;
 }
-.section-cap .buttom:active {
+.buttom-cap:active {
   background-color: #188ce8;
 }
 .section-skill li {
   display: inline-block;
   width: 270px;
-  height: 48px;
 }
 .section-skill h3 {
   width: 270px;
-  height: 16px;
-  top: 774px;
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.1;
+  letter-spacing: 0.03em;
 }
 .section-skill p {
-  height: 72px;
-  top: 800px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
@@ -153,44 +147,39 @@ footer .list-address {
   display: inline-block;
 }
 h2 {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--text);
 }
 .section-team h3 {
-  height: 19px;
-  top: 1922px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 .section-team p {
-  height: 19px;
-  top: 1951px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
+  letter-spacing: 0.03em;
 }
 
 .section-buttoms [type="button"] {
   height: 38px;
-  top: 174px;
   background-color: #f5f4fa;
   border-radius: 4px;
   border: 0;
 }
 .section-buttoms [type="button"]:active {
   background-color: #188ce8;
-  color: #ffffff;
+  color: var(--background);
   box-shadow: 0px 3px 1px #0000001a, 0px 1px 2px #00000014, 0px 2px 2px #0000001f;
   border-radius: 4px;
 }
 .list-products .list-item {
   width: 370px;
-  height: 404px;
 }
 .list-all {
   margin-bottom: 6px;
@@ -214,17 +203,15 @@ h2 {
 .section-products li {
   box-sizing: border-box;
   width: 370px;
-  height: 404px;
   margin-left: 24px;
   display: inline-table;
   border: 1px solid #eeeeee;
 }
 .section-team li {
-  background-color: #ffffff;
+  background-color: var(--background);
   text-align: center;
   left: 215px;
   width: 270px;
-  height: 368px;
   box-shadow: 0px 1px 3px #0000001f, 0px 1px 1px #00000024, 0px 2px 1px #00000033;
   margin-bottom: 10px;
   display: inline-block;
