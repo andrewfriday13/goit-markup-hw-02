@@ -54,13 +54,14 @@ footer [href="https://goo.gl/maps/d5CcS2hFM6yTFQRFA"]
   letter-spacing: 0.03em;
   color: var(--background);
 }
-.section-products h2 {
+.products h2 {
   font-size: 18px;
   line-height: 2;
   text-align: left;
   margin-left: 24px;
   margin-top: 20px;
   margin-bottom: 4px;
+  letter-spacing: 0.06em;
 }
 .skill h2 {
   left: 617px;
@@ -69,7 +70,7 @@ footer [href="https://goo.gl/maps/d5CcS2hFM6yTFQRFA"]
   text-align: center;
   letter-spacing: 0.03em;
 }
-.section-products p {
+.products p {
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
@@ -94,6 +95,9 @@ ul [href="tel:+380961111111"]:focus {
 }
 .main-list a:hover,
 .main-list a:focus {
+  color: var(--color-but);
+}
+.nav.active {
   color: var(--color-but);
 }
 
@@ -137,6 +141,7 @@ footer .list-address {
 .buttom-cap:active {
   background-color: #188ce8;
 }
+
 .skill li {
   display: inline-block;
   width: 270px;
@@ -208,15 +213,16 @@ footer .list-address {
   margin-bottom: 6px;
 }
 
-.section-products li:hover {
+.products li:hover {
   box-shadow: 0px 1px 1px #0000001f, 0px 4px 4px #0000000f, 1px 4px 6px #00000029;
 }
-.section-products li {
+.products li {
   box-sizing: border-box;
   width: 370px;
   margin-left: 24px;
   display: inline-table;
   border: 1px solid #eeeeee;
+  letter-spacing: 0.06em;
 }
 .section-team li {
   background-color: var(--background);
