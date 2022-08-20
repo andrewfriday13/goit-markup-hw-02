@@ -139,23 +139,24 @@ footer .list-address {
   line-height: 1.7;
 }
 .section-work li {
-  display: inline-block;
+  display: inline;
 }
+
 .section-title {
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
   color: var(--text);
-  font-weight: 700;
 }
 .section-team h3 {
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
+  text-align: center;
 }
 .section-team p {
   font-size: 16px;
   line-height: 1.9;
+  text-align: center;
 }
 
 .buttoms [type="button"] {
@@ -197,7 +198,7 @@ footer .list-address {
 .products li {
   width: 370px;
   margin: 0px 0px 0px 24px;
-  display: inline-table;
+  display: inline;
   border: 1px solid #eeeeee;
   letter-spacing: 0.06em;
 }
