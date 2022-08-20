@@ -8,12 +8,12 @@ body {
   color: var(--text);
   background-color: var(--background);
   font-family: "roboto";
+  letter-spacing: 0.03em;
+  font-size: 14px;
 }
-
 header {
   border: 1px solid #ececec;
 }
-
 span {
   color: var(--color-but);
 }
@@ -34,24 +34,19 @@ footer [href="./index.html"] {
   color: var(--background);
   font-size: 26px;
   line-height: 1;
-  letter-spacing: 0.03em;
   font-family: "raleway";
 }
 footer [href="mailto:info@devstudio.com"],
 [href="tel:+380961111111"] {
   left: 215px;
   font-style: normal;
-  font-size: 14px;
   line-height: 1.7;
-  letter-spacing: 0.03em;
   color: #ffffff99;
 }
 footer [href="https://goo.gl/maps/d5CcS2hFM6yTFQRFA"]
 {
   font-style: normal;
-  font-size: 14px;
   line-height: 1.7;
-  letter-spacing: 0.03em;
   color: var(--background);
 }
 .products h2 {
@@ -68,12 +63,10 @@ footer [href="https://goo.gl/maps/d5CcS2hFM6yTFQRFA"]
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 .products p {
   font-size: 16px;
   line-height: 1.9;
-  letter-spacing: 0.03em;
   text-align: left;
   margin-left: 24px;
   margin-bottom: 20px;
@@ -86,11 +79,9 @@ ul [href="tel:+380961111111"]:hover,
 ul [href="tel:+380961111111"]:focus {
   color: var(--color-but);
 }
-
 .main-list a {
   color: var(--text);
   font-weight: 500;
-  font-size: 14px;
   letter-spacing: 0.02em;
 }
 .main-list a:hover,
@@ -102,7 +93,6 @@ ul [href="tel:+380961111111"]:focus {
 }
 
 .list-address a {
-  font-size: 14px;
   color: var(--color-p);
   letter-spacing: 0.02em;
 }
@@ -114,7 +104,6 @@ footer .list-address {
   font-size: 26px;
   line-height: 1.2;
   font-family: "raleway";
-  letter-spacing: 0.03em;
 }
 .hero {
   background-color: #2f303a;
@@ -141,20 +130,14 @@ footer .list-address {
 .buttom-cap:active {
   background-color: #188ce8;
 }
-
 .skill li {
-  display: inline-block;
   width: 270px;
 }
 .skill h3 {
-  font-size: 14px;
   line-height: 1.1;
-  letter-spacing: 0.03em;
 }
 .skill p {
-  font-size: 14px;
   line-height: 1.7;
-  letter-spacing: 0.03em;
 }
 .section-work li {
   display: inline-block;
@@ -163,7 +146,6 @@ footer .list-address {
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--text);
   font-weight: 700;
 }
@@ -171,21 +153,17 @@ footer .list-address {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
-  letter-spacing: 0.03em;
 }
 .section-team p {
   font-size: 16px;
   line-height: 1.9;
-  letter-spacing: 0.03em;
 }
-
 .buttoms [type="button"] {
   height: 38px;
   background-color: #f5f4fa;
   border-radius: 4px;
   border: 0;
   font-size: 16px;
-  letter-spacing: 0.03em;
 }
 .buttoms [type="button"]:hover,
 .buttoms [type="button"]:focus {
@@ -212,7 +190,6 @@ footer .list-address {
 .list-marketing {
   margin-bottom: 6px;
 }
-
 .products li:hover {
   box-shadow: 0px 1px 1px #0000001f, 0px 4px 4px #0000000f, 1px 4px 6px #00000029;
 }
@@ -226,10 +203,8 @@ footer .list-address {
 }
 .section-team li {
   background-color: var(--background);
-  text-align: center;
   left: 215px;
   width: 270px;
   box-shadow: 0px 1px 3px #0000001f, 0px 1px 1px #00000024, 0px 2px 1px #00000033;
   margin-bottom: 10px;
-  display: inline-block;
 }
