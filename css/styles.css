@@ -11,6 +11,7 @@ body {
   letter-spacing: 0.03em;
   font-size: 14px;
 }
+
 header {
   border: 1px solid #ececec;
 }
@@ -53,9 +54,7 @@ footer [href="https://goo.gl/maps/d5CcS2hFM6yTFQRFA"]
   font-size: 18px;
   line-height: 2;
   text-align: left;
-  margin-left: 24px;
-  margin-top: 20px;
-  margin-bottom: 4px;
+  margin: 20px 0px 4px 24px;
   letter-spacing: 0.06em;
 }
 .skill h2 {
@@ -68,9 +67,7 @@ footer [href="https://goo.gl/maps/d5CcS2hFM6yTFQRFA"]
   font-size: 16px;
   line-height: 1.9;
   text-align: left;
-  margin-left: 24px;
-  margin-bottom: 20px;
-  margin-top: 4px;
+  margin: 4px 0px 20px 24px;
 }
 
 ul [href="mailto:info@devstudio.com"]:hover,
@@ -79,6 +76,7 @@ ul [href="tel:+380961111111"]:hover,
 ul [href="tel:+380961111111"]:focus {
   color: var(--color-but);
 }
+
 .main-list a {
   color: var(--text);
   font-weight: 500;
@@ -97,7 +95,7 @@ ul [href="tel:+380961111111"]:focus {
   letter-spacing: 0.02em;
 }
 footer .list-address {
-  margin-left: 215px;
+  margin: 0px 0px 0px 215px;
 }
 [href="/"] {
   color: var(--text);
@@ -130,6 +128,7 @@ footer .list-address {
 .buttom-cap:active {
   background-color: #188ce8;
 }
+
 .skill li {
   width: 270px;
 }
@@ -158,6 +157,7 @@ footer .list-address {
   font-size: 16px;
   line-height: 1.9;
 }
+
 .buttoms [type="button"] {
   height: 38px;
   background-color: #f5f4fa;
@@ -176,27 +176,27 @@ footer .list-address {
   width: 370px;
 }
 .list-all {
-  margin-bottom: 6px;
+  margin: 0px 0px 6px 0px;
 }
 .list-web {
-  margin-bottom: 6px;
+  margin: 0px 0px 6px 0px;
 }
 .list-app {
-  margin-bottom: 6px;
+  margin: 0px 0px 6px 0px;
 }
 .list-design {
-  margin-bottom: 6px;
+  margin: 0px 0px 6px 0px;
 }
 .list-marketing {
-  margin-bottom: 6px;
+  margin: 0px 0px 6px 0px;
 }
+
 .products li:hover {
   box-shadow: 0px 1px 1px #0000001f, 0px 4px 4px #0000000f, 1px 4px 6px #00000029;
 }
 .products li {
-  box-sizing: border-box;
   width: 370px;
-  margin-left: 24px;
+  margin: 0px 0px 0px 24px;
   display: inline-table;
   border: 1px solid #eeeeee;
   letter-spacing: 0.06em;
@@ -206,5 +206,5 @@ footer .list-address {
   left: 215px;
   width: 270px;
   box-shadow: 0px 1px 3px #0000001f, 0px 1px 1px #00000024, 0px 2px 1px #00000033;
-  margin-bottom: 10px;
+  margin: 0px 0px 10px 0px;
 }
