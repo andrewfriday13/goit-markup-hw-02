@@ -16,14 +16,15 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <div class="container">
-      <header class="header">
+    <header class="header">
+      <div class="container header-container">
+        <a class="link" href="/"><span>Web</span>Studio</a>
+
         <nav class="nav">
-          <a class="link" href="/"><span>Web</span>Studio</a>
           <ul class="main-list">
-            <li class="main-item"><a class="nav active" href="/index.html">Студія</a></li>
-            <li class="main-item"><a class="link" href="./portfolio.html">Портфоліо</a></li>
-            <li class="main-item"><a class="link" href="">Контакти</a></li>
+            <li class="list-item"><a class="header-nav-link" href="/index.html">Студія</a></li>
+            <li class="list-item"><a class="header-nav-link" href="./portfolio.html">Портфоліо</a></li>
+            <li class="list-item"><a class="header-nav-link" href="">Контакти</a></li>
           </ul>
         </nav>
         <ul class="list-address">
@@ -34,30 +35,34 @@
             <a href="tel:+380961111111">+38 096 111 11 11</a>
           </li>
         </ul>
-      </header>
-      <main>
-        <!-- шапка cap-->
-        <section class="hero">
+      </div>
+    </header>
+    <main>
+      <!-- шапка cap-->
+      <section class="hero">
+        <div class="container">
           <h1 class="hero-cap">Ефективні рішення для вашого бізнесу</h1>
           <button class="buttom-cap" type="buttom">Замовити послугу</button>
-        </section>
-        <!-- вміння skill-->
+        </div>
+      </section>
+      <!-- вміння skill-->
+      <div class="container">
         <section class="skill">
           <h2 hidden>вміння</h2>
-          <ul class="list-skill">
-            <li>
+          <ul>
+            <li class="list-skill">
               <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
               <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
             </li>
-            <li>
+            <li class="list-skill">
               <h3>ПУНКТУАЛЬНІСТЬ</h3>
               <p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
             </li>
-            <li>
+            <li class="list-skill">
               <h3>ПЛАНУВАННЯ</h3>
               <p>Так само консультація з широким активом значною мірою зумовлює.</p>
             </li>
-            <li>
+            <li class="list-skill">
               <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
 
               <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
@@ -95,30 +100,33 @@
         <section class="section-team">
           <h2 class="section-title">Наша команда</h2>
           <ul class="list-team">
-            <li class="list-igor">
+            <li class="list-name">
               <img class="img" src="./images/team/image-4.jpg" width="270" height="260" alt="продукт дизайнер" />
               <h3>Ігор Дем'яненко</h3>
               <p>Product Designer</p>
             </li>
-            <li class="list-olga">
+            <li class="list-name">
               <img class="img" src="./images/team/image-5.jpg" width="270" height="260" alt="програміст" />
               <h3>Ольга Рєпіна</h3>
               <p>Frontend Developer</p>
             </li>
-            <li class="list-mikola">
+            <li class="list-name">
               <img class="img" src="./images/team/image-6.jpg" width="270" height="260" alt="маркетолог" />
               <h3>Микола Тарасов</h3>
               <p>Marketing</p>
             </li>
-            <li class="list-mikhailo">
+            <li class="list-name">
               <img class="img" src="./images/team/image-7.jpg" width="270" height="260" alt="дизайнер" />
               <h3>Михайло Єрмаков</h3>
               <p>UI Designer</p>
             </li>
           </ul>
         </section>
-      </main>
-      <footer>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
         <a href="./index.html"><span>Web</span>Studio</a>
         <address>
           <ul class="list">
@@ -135,7 +143,7 @@
             </li>
           </ul>
         </address>
-      </footer>
-    </div>
+      </div>
+    </footer>
   </body>
 </html>

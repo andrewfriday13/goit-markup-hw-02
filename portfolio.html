@@ -16,11 +16,11 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <div class="container">
-      <!-- шапка-->
-      <header>
+    <!-- шапка-->
+    <header>
+      <div class="container header-container">
+        <a class="link" href="/"><span>Web</span>Studio</a>
         <nav class="nav">
-          <a class="link" href="/"><span>Web</span>Studio</a>
           <ul class="main-list">
             <li class="list-item"><a class="" href="./index.html ">Студія</a></li>
             <li class="list-item"><a class="nav active" href="./portfolio.html">Портфоліо</a></li>
@@ -35,10 +35,12 @@
             <a href="tel:+380961111111">+38 096 111 11 11</a>
           </li>
         </ul>
-      </header>
-      <!-- кнопки buttoms-->
+      </div>
+    </header>
+    <!-- кнопки buttoms-->
+    <div class="container">
       <section class="buttoms">
-        <ul class="list">
+        <ul class="list-buttoms">
           <li class="list-all"><button type="button">Усі</button></li>
           <li class="list-web"><button type="button">Веб-сайти</button></li>
           <li class="list-app"><button type="button">Додатки</button></li>
@@ -95,7 +97,9 @@
           </li>
         </ul>
       </section>
-      <footer>
+    </div>
+    <footer>
+      <div class="container">
         <a href="./index.html"><span>Web</span>Studio</a>
         <address>
           <ul class="list">
@@ -112,7 +116,7 @@
             </li>
           </ul>
         </address>
-      </footer>
-    </div>
+      </div>
+    </footer>
   </body>
 </html>
