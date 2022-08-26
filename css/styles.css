@@ -28,6 +28,9 @@ span {
   color: var(--color-but);
 }
 img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 ul {
   list-style-type: none;
@@ -54,11 +57,15 @@ footer {
   background-color: #2f303a;
   color: var(--background);
 }
+
 footer [href="./index.html"] {
+  display: block;
   color: var(--background);
   font-size: 26px;
   line-height: 1;
   font-family: "raleway";
+  padding-top: 60px;
+  padding-bottom: 20px;
 }
 footer [href="mailto:info@devstudio.com"],
 [href="tel:+380961111111"] {
@@ -72,11 +79,18 @@ footer [href="https://goo.gl/maps/d5CcS2hFM6yTFQRFA"]
   line-height: 1.7;
   color: var(--background);
 }
+
+.list-products {
+  display: inline-block;
+}
+.products {
+  margin-bottom: 94px;
+}
 .products h2 {
   font-size: 18px;
   line-height: 2;
   text-align: left;
-  margin: 20px 0px 4px 24px;
+  padding: 20px 0px 4px 24px;
   letter-spacing: 0.06em;
 }
 .skill h2 {
@@ -132,8 +146,10 @@ ul [href="tel:+380961111111"]:focus {
 }
 .list-buttoms {
   display: flex;
-}
-footer .list-address {
+  justify-content: center;
+  gap: 8px;
+  margin-top: 94px;
+  margin-bottom: 50px;
 }
 [href="/"] {
   color: var(--text);
@@ -168,35 +184,63 @@ footer .list-address {
   border: 0;
   letter-spacing: 0.06em;
   margin: 0 auto;
+  display: block;
 }
 .buttom-cap:active {
   background-color: var(--active-but);
 }
+.skill {
+  margin-bottom: 94px;
+}
 .skill li {
   width: 270px;
+  display: inline-block;
+  gap: 10px;
+  padding-right: 30px;
 }
 .skill h3 {
   line-height: 1.1;
   font-size: 14px;
+  margin-bottom: 10px;
 }
 .skill p {
   line-height: 1.7;
+}
+.section-work {
+  padding-bottom: 94px;
 }
 .section-title {
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
   color: var(--text);
+  margin-bottom: 50px;
+  padding-top: 94px;
+}
+.list-work {
+  display: flex;
+  gap: 30px;
+}
+
+.section-team {
+  background-color: #f5f4fa;
+}
+.list-team {
+  padding-bottom: 94px;
+  display: flex;
 }
 .section-team h3 {
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 .section-team p {
   font-size: 16px;
   line-height: 1.9;
   text-align: center;
+  padding-bottom: 30px;
 }
 .buttoms [type="button"] {
   height: 38px;
@@ -214,7 +258,17 @@ footer .list-address {
 }
 .buttoms {
 }
-
+.border {
+  border-right-color: rgb(238, 238, 238);
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-bottom-color: rgb(238, 238, 238);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-left-color: rgb(238, 238, 238);
+  border-left-style: solid;
+  border-left-width: 1px;
+}
 .list-skill {
 }
 .products li:hover {
@@ -222,7 +276,6 @@ footer .list-address {
 }
 .products li {
   width: 370px;
-  border: 1px solid #eeeeee;
   letter-spacing: 0.06em;
 }
 .section-team li {
@@ -230,6 +283,11 @@ footer .list-address {
   left: 215px;
   width: 270px;
   box-shadow: 0px 1px 3px #0000001f, 0px 1px 1px #00000024, 0px 2px 1px #00000033;
+  display: inline-block;
+  border-radius: 0px 0px 4px 4px;
+}
+.list-name {
+  margin-right: 30px;
 }
 .container {
   width: 1200px;
